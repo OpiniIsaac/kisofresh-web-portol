@@ -113,18 +113,18 @@ export default function Home() {
           <label htmlFor="quantity-filter" className="me-2"> Quantity (tonnes):</label>
           <input type="number" id="quantity-filter" className="form-control form-control-lg mb-2"/>
           <button className="bg-blue-500 text-white px-4 py-2 rounded">Source</button>
-          <p className="text-gray-500 text-xs mt-0">Are you a farmer? <a href="https://placeholder.com/" className="text-blue-500 text-decoration-none">Register here</a></p>
+          <p className="text-gray-500 text-xs mt-0">Are you a farmer? <a href="/register" className="text-blue-500 text-decoration-none">Register here</a></p>
         </div>
         <div className="hidden md:block md:w-1/2">
-          <Image src="/crops.jpg" alt="crops" className="w-full rounded-lg shadow" height={200} width={200}/>
+          <Image src="/crops.jpg" alt="crops" className="w-full rounded-lg shadow" height={100} width={100}/>
         </div>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="col">
-          <div className="feature card text-center h-auto shadow-sm bg-white">
+          <div className="feature card text-center h-auto shadow-sm bg-white p-4">
             <h3 className="text-xl">Smart Farming</h3>
             <p>Beat the elements using IoT data</p>
-            <Image src="/data.jpeg" alt="data" className="w-full rounded-lg shadow" height={200} width={200}/>
+            <Image src="/data.jpeg" alt="data" className="w-full rounded-lg shadow" height={100} width={100}/>
             <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={handleOpenSmartFarming}>
   Subscribe 
 </button>
@@ -165,10 +165,10 @@ export default function Home() {
           </div>
         </div>
         <div className="col">
-          <div className="feature card text-center h-auto shadow-sm bg-white">
+          <div className="feature card text-center h-auto shadow-sm bg-white p-4">
             <h3 className="text-xl">Market News</h3>
             <p>Stay ahead with global agricultural news.</p>
-            <Image src="/export.jpg" alt="news" className="w-full rounded-lg" height={200} width={200}/>
+            <Image src="/export.jpg" alt="news" className="w-full rounded-lg shadow" height={100} width={100}/>
             <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={handleOpenMarketNews}>
   Sign Up
 </button>
@@ -211,10 +211,10 @@ export default function Home() {
           </div>
         </div>
         <div className="col">
-          <div className="feature card text-center h-auto shadow-sm bg-white">
+          <div className="feature card text-center h-auto shadow-sm bg-white p-4">
             <h3 className="text-xl">Agriculture Tips</h3>
             <p>Learn best practices for your farm.</p>
-            <Image src="/cow.jpg" alt="tips" className="w-full rounded-lg" height={200} width={200}/>
+            <Image src="/cow.jpg" alt="tips" className="w-full rounded-lg shadow" height={100} width={100}/>
             <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={handleOpenAgricultureTips}>
               Sign Up
             </button>
