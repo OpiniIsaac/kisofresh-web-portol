@@ -46,10 +46,3 @@ We welcome contributions from the community to enhance KisoIndex! If you're inte
 7. **Create a Pull Request:** Create a pull request on the main KisoIndex repository to propose your contributions for review and merging.
 
 We appreciate your willingness to contribute to this open-source project!
-
-**Additional Notes:**
-
-* This README provides a general structure. You may need to add specific details or instructions regarding data sources and API integrations in your project.
-* Consider including a license file (e.g., MIT License) to clarify the usage and distribution terms of your code.
-
-By following these steps and providing additional project-specific information, you can create a comprehensive README.md file that effectively documents your agricultural product price index application.
