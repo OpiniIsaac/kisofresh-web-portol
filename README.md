@@ -13,7 +13,7 @@ Farmers often face challenges in obtaining accurate and timely data on the price
 1. **Prerequisites:** Ensure you have Node.js (version 14 or later) and npm (or yarn) installed on your system.
 2. **Clone the Repository:** Use git to clone the KisoIndex repository from your preferred source (e.g., GitHub).
    ```bash
-   git clone https://github.com/your-username/kisoindex.git
+   [git clone https://github.com/your-username/kisoindex.git](https://github.com/OpiniIsaac/kisofresh-web-portol.git)
    ```
 3. **Install Dependencies:** Navigate to the project directory and run the command to install all required dependencies:
    ```bash
